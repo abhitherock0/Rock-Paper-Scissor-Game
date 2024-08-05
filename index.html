@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="choice" id="paper">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg" alt="">
+            </div>
+            <div class="choice" id="scissor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzUoBFnNu4LamGEnYgNuq7gHmmWo8IJk4ymA&s" alt="">
+            </div>
+        </div>
+        <div id="scoreboard">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+        <div id="message">
+            <p id="msg">Play your move</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
